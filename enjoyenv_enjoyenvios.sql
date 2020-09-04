@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 04-09-2020 a las 21:12:07
+-- Tiempo de generación: 04-09-2020 a las 21:58:22
 -- Versión del servidor: 10.4.11-MariaDB
 -- Versión de PHP: 7.2.30
 
@@ -172,7 +172,8 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `firstname`, `email`, `password`, `created`, `modified`, `creditos`, `info`, `codigoConfirmacion`) VALUES
 (2, 'Mikel Ugarte', 'tiestomikel@gmail.com', '$2y$10$7FWyeSeA./a.1w.q6QLwQO9Z7lVSqmvEctzEv0qFhRwFSl992j732', '2019-08-07 21:02:03', '2020-09-03 21:05:35', 1400, '{\"nombreEmpresa\":\"Empresa X\",\"ubicacionEmpresa\":\"JTGoes\",\"cfdi\":\"G03\"}', 'CONFIRMADO'),
-(149, 'mikelk', 'mikelugarterz@hotmail.com', '$2y$10$vLP0vcY/FfPWDILLV3U0EuCTPHCkXOcIYrOFgWbY6BgSt2lzbf4Km', '2020-09-04 13:31:48', '2020-09-04 18:31:48', 0, '', '5f5288140fae3');
+(149, 'mikelk', 'mikelugarterz@hotmail.com', '$2y$10$vLP0vcY/FfPWDILLV3U0EuCTPHCkXOcIYrOFgWbY6BgSt2lzbf4Km', '2020-09-04 13:31:48', '2020-09-04 19:20:54', 0, '', 'CONFIRMADO'),
+(150, 'Julio', 'maadix@gmail.com', '$2y$10$.UZ.deiDXieV2lEIFQBTL.xcrTR.U6jq/kLBBpGbcf7Wvm2Ote2QS', '2020-09-04 14:20:34', '2020-09-04 19:20:58', 0, '', 'CONFIRMADO');
 
 --
 -- Índices para tablas volcadas
@@ -252,7 +253,7 @@ ALTER TABLE `repartidores`
 -- AUTO_INCREMENT de la tabla `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=150;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=151;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
