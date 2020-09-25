@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 22-09-2020 a las 05:36:15
--- Versión del servidor: 10.4.11-MariaDB
--- Versión de PHP: 7.2.30
+-- Tiempo de generación: 25-09-2020 a las 03:04:40
+-- Versión del servidor: 10.4.14-MariaDB
+-- Versión de PHP: 7.2.33
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -102,7 +102,12 @@ INSERT INTO `envios` (`id`, `idUsuario`, `infoEnvio`, `totalPago`, `codigoRastre
 (52, 2, '{\"envio\":{\"puntoRecogida\":{\"direccion\":\"Ret. 8 de Lazaro Pavia Edif. 130 -1\",\"interior\":\"1\",\"contenido\":\"dawdwa\",\"nombre\":\"dwadwa\",\"correo\":\"tiestomikel@gmail.com\",\"telefono\":\"5565592873\",\"fecha\":\"2020-09-30\",\"hora\":\"\",\"referencias\":\"dwadwa\"},\"puntosEntrega\":[{\"direccion\":\"Santa maria la ribera 93\",\"interior\":\"dwadwa\",\"contenido\":\"dwa\",\"nombre\":\"dwada\",\"correo\":\"tiesto@gmail.com\",\"telefono\":\"5528586604\",\"referencias\":\"dwa\"}],\"codigoRastreo\":\"5f6905a696\",\"fechaRegistro\":\"2020-09-22 03:57:26\",\"estatusEnvio\":0,\"distancia\":7.8}}', 7.8, '5f6905a696'),
 (53, 2, '{\"envio\":{\"puntoRecogida\":{\"direccion\":\"Ret. 8 de Lazaro Pavia Edif. 130 -1\",\"interior\":\"1\",\"contenido\":\"dwadwa\",\"nombre\":\"dawdwa\",\"correo\":\"tiestomikel@gmail.com\",\"telefono\":\"5528586604\",\"fecha\":\"2020-09-21\",\"hora\":\"\",\"referencias\":\"dwad\"},\"puntosEntrega\":[{\"direccion\":\"Santa maria la ribera 93\",\"interior\":\"dwadaw\",\"contenido\":\"dwada\",\"nombre\":\"dwadwa\",\"correo\":\"tiesto@gmail.com\",\"telefono\":\"5528586604\",\"referencias\":\"dwada\"}],\"codigoRastreo\":\"5f690acfa7\",\"fechaRegistro\":\"2020-09-21 15:19:27\",\"estatusEnvio\":0,\"distancia\":7.8}}', 7.8, '5f690acfa7'),
 (54, 2, '{\"envio\":{\"puntoRecogida\":{\"direccion\":\"Ret. 8 de Lazaro Pavia Edif. 130 -1\",\"interior\":\"dwadwa\",\"contenido\":\"dwadwa\",\"nombre\":\"dwadwa\",\"correo\":\"tiestomikel@gmail.com\",\"telefono\":\"5564167869\",\"fecha\":\"2020-09-21\",\"hora\":\"\",\"referencias\":\"dwadwa\"},\"puntosEntrega\":[{\"direccion\":\"Santa maria la ribera 93\",\"interior\":\"sdwa\",\"contenido\":\"dwa\",\"nombre\":\"dwadwa\",\"correo\":\"tiestomikel@gmail.com\",\"telefono\":\"5528586604\",\"referencias\":\"dwad\"}],\"codigoRastreo\":\"5f692ccf3c\",\"fechaRegistro\":\"2020-09-21 17:44:31\",\"estatusEnvio\":0,\"distancia\":7.8}}', 7.8, '5f692ccf3c'),
-(55, 2, '{\"envio\":{\"puntoRecogida\":{\"direccion\":\"Ret. 8 de Lazaro Pavia Edif. 130 -1\",\"contenido\":\"dwadwa\",\"nombre\":\"Mikel Ugarte\",\"correo\":\"tiestomikel@gmail.com\",\"telefono\":\"5528586604\",\"fecha\":\"2020-09-21\",\"hora\":\"\",\"referencias\":\"dawdwa\"},\"puntosEntrega\":[{\"direccion\":\"Santa maria la ribera 93\",\"contenido\":\"dwad\",\"nombre\":\"dwadaw\",\"correo\":\"tiesto@gmail.com\",\"telefono\":\"5528586604\",\"referencias\":\"awdwa\"}],\"codigoRastreo\":\"5f69606e7d\",\"fechaRegistro\":\"2020-09-21 21:24:46\",\"estatusEnvio\":0,\"distancia\":7.8}}', 7.8, '5f69606e7d');
+(55, 2, '{\"envio\":{\"puntoRecogida\":{\"direccion\":\"Ret. 8 de Lazaro Pavia Edif. 130 -1\",\"contenido\":\"dwadwa\",\"nombre\":\"Mikel Ugarte\",\"correo\":\"tiestomikel@gmail.com\",\"telefono\":\"5528586604\",\"fecha\":\"2020-09-21\",\"hora\":\"\",\"referencias\":\"dawdwa\"},\"puntosEntrega\":[{\"direccion\":\"Santa maria la ribera 93\",\"contenido\":\"dwad\",\"nombre\":\"dwadaw\",\"correo\":\"tiesto@gmail.com\",\"telefono\":\"5528586604\",\"referencias\":\"awdwa\"}],\"codigoRastreo\":\"5f69606e7d\",\"fechaRegistro\":\"2020-09-21 21:24:46\",\"estatusEnvio\":0,\"distancia\":7.8}}', 7.8, '5f69606e7d'),
+(56, 2, '{\"envio\":{\"puntoRecogida\":{\"direccion\":\"Rtno. 8 Lazaro Pavia, Jardín Balbuena, 15900 Ciudad de México, CDMX, México\",\"contenido\":\"dwadwa\",\"nombre\":\"Carlos\",\"correo\":\"tiestomikel@gmail.com\",\"telefono\":\"55665437\",\"fecha\":\"2020-09-24\",\"hora\":\"\",\"referencias\":\"dwa\"},\"puntosEntrega\":[{\"direccion\":\"Sta María la Ribera, 06400 Ciudad de México, CDMX, México\",\"contenido\":\"dwadwa\",\"nombre\":\"dwada\",\"correo\":\"tiesto@gmail.com\",\"telefono\":\"55555555\",\"referencias\":\"adwa\"}],\"codigoRastreo\":\"5f6ceeaba0\",\"fechaRegistro\":\"2020-09-24 14:08:27\",\"estatusEnvio\":0,\"distancia\":8.05}}', 8.05, '5f6ceeaba0'),
+(57, 2, '{\"envio\":{\"puntoRecogida\":{\"direccion\":\"Sta María la Ribera, 06400 Ciudad de México, CDMX, México\",\"contenido\":\"dwadwa\",\"nombre\":\"dwadwa\",\"correo\":\"tiestomikel@gmail.com\",\"telefono\":\"55555555\",\"fecha\":\"2020-09-24\",\"hora\":\"\",\"referencias\":\"dwadwa\"},\"puntosEntrega\":[{\"direccion\":\"Rtno. 8 Lazaro Pavia, Jardín Balbuena, 15900 Ciudad de México, CDMX, México\",\"contenido\":\"dawdwa\",\"nombre\":\"dwada\",\"correo\":\"tiestomikel@gmail.com\",\"telefono\":\"55555555\",\"referencias\":\"dwadwa\"}],\"codigoRastreo\":\"5f6cef9577\",\"fechaRegistro\":\"2020-09-24 14:12:21\",\"estatusEnvio\":0,\"distancia\":7.98}}', 7.98, '5f6cef9577'),
+(58, 2, '{\"envio\":{\"puntoRecogida\":{\"direccion\":\"Sta María la Ribera, 06400 Ciudad de México, CDMX, México\",\"contenido\":\"dwadaw\",\"nombre\":\"dwadwa\",\"correo\":\"tiestomikel@gmail.com\",\"telefono\":\"55555555\",\"fecha\":\"2020-09-24\",\"hora\":\"\",\"referencias\":\"dwadwa\"},\"puntosEntrega\":[{\"direccion\":\"Rtno. 8 Lazaro Pavia, Jardín Balbuena, 15900 Ciudad de México, CDMX, México\",\"contenido\":\"dawa\",\"nombre\":\"dawd\",\"correo\":\"tiesto@gmail.com\",\"telefono\":\"55555555\",\"referencias\":\"adwadwa\"}],\"codigoRastreo\":\"5f6cefe9ac\",\"fechaRegistro\":\"2020-09-24 14:13:45\",\"estatusEnvio\":0,\"distancia\":7.98}}', 7.98, '5f6cefe9ac'),
+(59, 2, '{\"envio\":{\"puntoRecogida\":{\"direccion\":\"Sta María la Ribera, 06400 Ciudad de México, CDMX, México\",\"contenido\":\"dwadaw\",\"nombre\":\"dwadwa\",\"correo\":\"tiestomikel@gmail.com\",\"telefono\":\"55555555\",\"fecha\":\"2020-09-24\",\"hora\":\"\",\"referencias\":\"dwadwa\"},\"puntosEntrega\":[{\"direccion\":\"Rtno. 8 Lazaro Pavia, Jardín Balbuena, 15900 Ciudad de México, CDMX, México\",\"contenido\":\"dawa\",\"nombre\":\"dawd\",\"correo\":\"tiesto@gmail.com\",\"telefono\":\"55555555\",\"referencias\":\"adwadwa\"}],\"codigoRastreo\":\"5f6cf02a9f\",\"fechaRegistro\":\"2020-09-24 14:14:50\",\"estatusEnvio\":0,\"distancia\":10.98}}', 10.98, '5f6cf02a9f'),
+(60, 2, '{\"envio\":{\"puntoRecogida\":{\"direccion\":\"Sta María la Ribera, 06400 Ciudad de México, CDMX, México\",\"contenido\":\"dwadwa\",\"nombre\":\"dawdwa\",\"correo\":\"tiestomikel@gmail.com\",\"telefono\":\"55555555\",\"fecha\":\"2020-09-24\",\"hora\":\"\",\"referencias\":\"dwad\"},\"puntosEntrega\":[{\"direccion\":\"Rtno. 8 Lazaro Pavia, Jardín Balbuena, 15900 Ciudad de México, CDMX, México\",\"contenido\":\"dwada\",\"nombre\":\"dwad\",\"correo\":\"tiesto@gmail.mx\",\"telefono\":\"55555555\",\"referencias\":\"ddwa\"}],\"codigoRastreo\":\"5f6cf0934f\",\"fechaRegistro\":\"2020-09-24 14:16:35\",\"estatusEnvio\":0,\"distancia\":10.98}}', 10.98, '5f6cf0934f');
 
 -- --------------------------------------------------------
 
@@ -168,21 +173,22 @@ CREATE TABLE `users` (
   `creditos` float NOT NULL DEFAULT 0,
   `facturacion` tinyint(1) NOT NULL,
   `info` text NOT NULL,
-  `codigoConfirmacion` varchar(60000) NOT NULL
+  `codigoConfirmacion` varchar(60000) NOT NULL,
+  `codCambioPass` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Volcado de datos para la tabla `users`
 --
 
-INSERT INTO `users` (`id`, `firstname`, `email`, `direccion`, `telefono`, `password`, `created`, `modified`, `creditos`, `facturacion`, `info`, `codigoConfirmacion`) VALUES
-(2, 'Mikel Ugarteza', 'tiestomikel@gmail.com', 'Santa maria la riberaaa', '5564167869', '$2y$10$7FWyeSeA./a.1w.q6QLwQO9Z7lVSqmvEctzEv0qFhRwFSl992j732', '2019-08-07 21:02:03', '2020-09-22 02:24:46', 25692.7, 1, '{\"nombreFiscal\":\"Fiscal sss\",\"razonSocial\":\"Razon social\",\"ubicacionEmpresa\":\"JTGoeS\",\"cfdi\":\"P01\",\"tipoPersona\":\"FI\",\"rfc\":\"UARM970102P4A\"}', 'CONFIRMADO'),
-(149, 'mikelk', 'mikelugarterz@hotmail.com', '', '', '$2y$10$vLP0vcY/FfPWDILLV3U0EuCTPHCkXOcIYrOFgWbY6BgSt2lzbf4Km', '2020-09-04 13:31:48', '2020-09-04 19:20:54', 0, 0, '', 'CONFIRMADO'),
-(150, 'Julio', 'maadix@gmail.com', '', '', '$2y$10$.UZ.deiDXieV2lEIFQBTL.xcrTR.U6jq/kLBBpGbcf7Wvm2Ote2QS', '2020-09-04 14:20:34', '2020-09-04 19:20:58', 0, 0, '', 'CONFIRMADO'),
-(151, 'Mikel', 'piolin@gail.mx', '', '', '$2y$10$Do0rynZmUKC4bX3cHfFokOiDTWZrn7/4G9YR2sXr2Jo1J3vitUKA.', '2020-09-15 18:04:39', '2020-09-15 23:04:39', 0, 0, '', '5f6148873252c'),
-(152, 'Mikel', 'piolin@gdmail.com', '', '', '$2y$10$e83u0d5HhNH7yYTam5hi2OlSnwHDXCUwzJ.FrFdcfDPx5bUVE1idi', '2020-09-15 18:06:00', '2020-09-15 23:06:00', 0, 0, '', '5f6148d8b5153'),
-(153, 'Mikel', 'adawdaw@fawaw.com', '', '', '$2y$10$hVVkV0MMGy6DXsQLnpf8Y.wC1mFYuu8FPmD3can/W1LhAFosuMvqu', '2020-09-15 18:06:37', '2020-09-15 23:06:37', 0, 0, '', '5f6148fde185f'),
-(154, 'Mikel', 'tiestomikel@gmail.mx', '', '', '$2y$10$YD/1Ers255/iWiANvPuzBOcJnE.aRuDD2WhLtZiZhwr11ITC07EHq', '2020-09-15 18:08:44', '2020-09-15 23:08:44', 0, 0, '', '5f61497cdf449');
+INSERT INTO `users` (`id`, `firstname`, `email`, `direccion`, `telefono`, `password`, `created`, `modified`, `creditos`, `facturacion`, `info`, `codigoConfirmacion`, `codCambioPass`) VALUES
+(2, 'Mikel Ugarteza', 'tiestomikel@gmail.com', 'Santa maria la riberaaa', '5564167869', '$2y$10$7FWyeSeA./a.1w.q6QLwQO9Z7lVSqmvEctzEv0qFhRwFSl992j732', '2019-08-07 21:02:03', '2020-09-25 00:56:51', 25646.7, 1, '{\"nombreFiscal\":\"Fiscal sss\",\"razonSocial\":\"Razon social\",\"ubicacionEmpresa\":\"JTGoeS\",\"cfdi\":\"P01\",\"tipoPersona\":\"FI\",\"rfc\":\"UARM970102P4A\"}', 'CONFIRMADO', '5f6d405371d19'),
+(149, 'mikelk', 'mikelugarterz@hotmail.com', '', '', '$2y$10$vLP0vcY/FfPWDILLV3U0EuCTPHCkXOcIYrOFgWbY6BgSt2lzbf4Km', '2020-09-04 13:31:48', '2020-09-04 19:20:54', 0, 0, '', 'CONFIRMADO', ''),
+(150, 'Julio', 'maadix@gmail.com', '', '', '$2y$10$.UZ.deiDXieV2lEIFQBTL.xcrTR.U6jq/kLBBpGbcf7Wvm2Ote2QS', '2020-09-04 14:20:34', '2020-09-04 19:20:58', 0, 0, '', 'CONFIRMADO', ''),
+(151, 'Mikel', 'piolin@gail.mx', '', '', '$2y$10$Do0rynZmUKC4bX3cHfFokOiDTWZrn7/4G9YR2sXr2Jo1J3vitUKA.', '2020-09-15 18:04:39', '2020-09-15 23:04:39', 0, 0, '', '5f6148873252c', ''),
+(152, 'Mikel', 'piolin@gdmail.com', '', '', '$2y$10$e83u0d5HhNH7yYTam5hi2OlSnwHDXCUwzJ.FrFdcfDPx5bUVE1idi', '2020-09-15 18:06:00', '2020-09-15 23:06:00', 0, 0, '', '5f6148d8b5153', ''),
+(153, 'Mikel', 'adawdaw@fawaw.com', '', '', '$2y$10$hVVkV0MMGy6DXsQLnpf8Y.wC1mFYuu8FPmD3can/W1LhAFosuMvqu', '2020-09-15 18:06:37', '2020-09-15 23:06:37', 0, 0, '', '5f6148fde185f', ''),
+(154, 'Mikel', 'tiestomikel@gmail.mx', '', '', '$2y$10$YD/1Ers255/iWiANvPuzBOcJnE.aRuDD2WhLtZiZhwr11ITC07EHq', '2020-09-15 18:08:44', '2020-09-15 23:08:44', 0, 0, '', '5f61497cdf449', '');
 
 --
 -- Índices para tablas volcadas
@@ -244,7 +250,7 @@ ALTER TABLE `cfdiop`
 -- AUTO_INCREMENT de la tabla `envios`
 --
 ALTER TABLE `envios`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=56;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=61;
 
 --
 -- AUTO_INCREMENT de la tabla `precios`
